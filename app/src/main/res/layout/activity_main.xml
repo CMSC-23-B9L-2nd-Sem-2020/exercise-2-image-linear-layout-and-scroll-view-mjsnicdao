@@ -19,10 +19,26 @@
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/MARVEL_LOGO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/title_margin"
         android:contentDescription="@string/marvel_logo"
         app:srcCompat="@drawable/marvel_logo" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_margin_right"
+        android:layout_marginRight="@dimen/start_margin_right"
+        android:text="@string/start_button" />
+
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_margin_right"
+        android:layout_marginRight="@dimen/start_margin_right"
+        android:text="@string/retry_button" />
 </LinearLayout>
