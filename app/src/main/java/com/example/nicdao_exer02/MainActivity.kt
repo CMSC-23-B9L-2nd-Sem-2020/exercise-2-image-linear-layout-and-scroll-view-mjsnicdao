@@ -44,7 +44,15 @@ class MainActivity : AppCompatActivity() {
 
         val stringResource = when(randomInt){
             1 -> textView.setText(R.string.antman)
-
+            2 -> textView.setText(R.string.blackpanther)
+            3 -> textView.setText(R.string.blackwidow)
+            4 -> textView.setText(R.string.captainamerica)
+            5 -> textView.setText(R.string.drstrange)
+            6 -> textView.setText(R.string.hulk)
+            7 -> textView.setText(R.string.ironman)
+            8 -> textView.setText(R.string.spiderman)
+            9 -> textView.setText(R.string.starlord)
+            else -> textView.setText(R.string.thor)
         }
 
         image.setImageResource(drawableResource)
