@@ -41,4 +41,18 @@
         android:layout_marginLeft="@dimen/start_margin_right"
         android:layout_marginRight="@dimen/start_margin_right"
         android:text="@string/retry_button" />
+
+    <ScrollView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio"
+            android:textAlignment="center" />
+    </ScrollView>
+
 </LinearLayout>

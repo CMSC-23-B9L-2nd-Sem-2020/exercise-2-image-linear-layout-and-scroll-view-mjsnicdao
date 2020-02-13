@@ -4,4 +4,6 @@
     <string name="marvel_logo">The Marvel Logo</string>
     <string name="start_button">START</string>
     <string name="retry_button">RETRY</string>
+    <string name="bio">FIND OUT THE INNER HERO IN YOU</string>
+    <string name = "antman">Small Hero</string>
 </resources>
